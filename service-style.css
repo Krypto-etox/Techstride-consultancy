@@ -1971,6 +1971,13 @@ section {
 
 
 
+h2{
+  /* z-index: 4; */
+  position: relative;
+  background: url(img/section-title-bg.png) no-repeat;
+  margin-left: 40%;
+}
+
 
 
 
@@ -1978,7 +1985,7 @@ section {
 
 
 #contact{
-  text-align: center;
+  /* text-align: center; */
   background-color: #F4F9FC;
 }
 
