@@ -26,6 +26,8 @@
   <link href="asset/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="asset/vendor/aos/aos.css" rel="stylesheet">
 
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
   <!-- Template Main CSS File -->
   <link href="service-style.css" rel="stylesheet">
 
@@ -42,7 +44,7 @@
 
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <img src="img/backgroundless logo 2.png" alt="">
         <h1>TechStride Consultancy</h1>
       </a>
 
@@ -114,7 +116,7 @@
             <p>
                 Welcome to our Cloud Nexus, where innovation meets scalability. Our Cloud Computing services are crafted to empower your business with flexible, secure, and cutting-edge cloud solutions. Explore the spectrum of services we offer
             </p>
-            <ul>
+            <!-- <ul>
               <li><i class="bi bi-check-circle"></i> <span>Custom Website Development</span></li>
               <li><i class="bi bi-check-circle"></i> <span>E-commerce Development</span></li>
               <li><i class="bi bi-check-circle"></i> <span>Content Management Systems (CMS)</span></li>
@@ -128,7 +130,44 @@
               <li><i class="bi bi-check-circle"></i> <span>Responsive Design and Cross-Browser Compatibility</span></li>
               <li><i class="bi bi-check-circle"></i> <span>Maintenance and Support</span></li>
 
-            </ul>
+            </ul> -->
+
+            <div class="cards">
+
+              <div class="card">
+                <img src="img/about-bg.jpg" alt="Avatar" style="width:100%">
+                <div class="container">
+                  <h4><b>John Doe</b></h4> 
+                  <p>Architect & Engineer</p> 
+                </div>
+              </div>
+              
+              <div class="card">
+                <img src="img/about-bg.jpg" alt="Avatar" style="width:100%">
+                <div class="container">
+                  <h4><b>John Doe</b></h4> 
+                  <p>Architect & Engineer</p> 
+                </div>
+              </div>
+              
+              <div class="card">
+                <img src="img/about-bg.jpg" alt="Avatar" style="width:100%">
+                <div class="container">
+                  <h4><b>John Doe</b></h4> 
+                  <p>Architect & Engineer</p> 
+                </div>
+              </div>
+              
+              <div class="card">
+                <img src="img/about-bg.jpg" alt="Avatar" style="width:100%">
+                <div class="container">
+                  <h4><b>John Doe</b></h4> 
+                  <p>Architect & Engineer</p> 
+                </div>
+              </div>
+              
+              </div>
+
             <p>
               <!-- Est reprehenderit voluptatem necessitatibus asperiores neque sed ea illo. Deleniti quam sequi optio iste veniam repellat odit. Aut pariatur itaque nesciunt fuga. -->
             </p>
@@ -143,6 +182,81 @@
 
       </div>
     </section><!-- End Service Details Section -->
+
+    <!-- ======= Contact Section ======= -->
+<section id="contact" class="contact section-bg">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+      <h2>Contact Us</h2>
+      <p>Ready to Transform your Business? Our Expert team is just a call away! Contact us now to unlock tailored IT Solutions that elevate your success. <strong>Contact Us Now</strong></p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="info-box mb-4">
+          <i class="bx bx-map"></i>
+          <h3>Our Address</h3>
+          <p>28, Delhi Technical Campus, 1, Knowledge Park III, Greater Noida, Gujarpur, Uttar Pradesh 201306</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="info-box  mb-4">
+          <i class="bx bx-envelope"></i>
+          <h3>Email Us</h3>
+          <p><a href="mailto:techstrideconsultancy@gmail.com">Techstride Consultancy@gmail.com</a></p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="info-box  mb-4">
+          <i class="bx bx-phone-call"></i>
+          <h3>Call Us</h3>
+          <p>+1 5589 55488 55</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-6 ">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9294.621056208169!2d77.48187532133916!3d28.47668253035647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1709994586218!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="col-lg-6">
+        <form onsubmit="sendEmail(); reset(); return false;"></form>
+        <form action="https://api.web3forms.com/submit" method="POST" class="php-email-form">
+          <div class="row">
+            <input type="hidden" name="access_key" value="edb212a2-7465-4715-aa97-5aad2d579226">
+            <div class="col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+          </div>
+          <!-- <div class="my-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+          </div> -->
+
+          <div class="text-center"><button type="submit">Send Message</button></div>
+        </form>
+      </div>
+      <script src="https://web3forms.com/client/script.js" async defer></script>
+    </div>
+
+  </div>
+</section><!-- End Contact Section -->
 
   </main><!-- End #main -->
 
@@ -159,10 +273,9 @@
               <h3>TechStride Consultancy</h3>
               <p class="pb-3"><em>Transform your Business with us! Call Now for Bespoke IT solutions and elevate your Success.</em></p>
               <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
+                28, Delhi Technical Campus, 1, Knowledge Park III, Greater Noida, Gujarpur, Uttar Pradesh 201306<br><br>
                 <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> Techstrideconsultancing@gmail.com<br>
+                <strong>Email:</strong> <p><a href="mailto:techstrideconsultancy@gmail.com">Techstride Consultancy@gmail.com</a></p><br>
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
