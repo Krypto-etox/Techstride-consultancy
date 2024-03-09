@@ -1971,7 +1971,7 @@ section {
 
 
 
-h2{
+#contact h2{
   /* z-index: 4; */
   position: relative;
   background: url(img/section-title-bg.png) no-repeat;
